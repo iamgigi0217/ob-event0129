@@ -1,0 +1,578 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body
+{
+    font-family: Helvetica, Microsoft Jhenghei, sans-serif;
+    line-height: 1;
+	margin: 0px;
+	padding: 0px;
+    
+}
+a {
+	outline: medium none;
+    text-decoration: none;}
+
+
+
+.sky_bua {
+	display: block;
+	width: 100%;
+	position: fixed;
+	height: 26px;
+	background-color: #000000;
+	z-index: 9999;
+	margin: 0px;
+	padding: 0px;
+	top: 0px;	/*margin-left: -90px;
+	*margin-left: -670px!important;*/
+} /* IE並不認識fixed，而FF認識 */
+
+
+
+
+.content_top {
+	/*margin-top: 40px;*/
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	width: 100%;
+	height: 130px;
+	background-color: #FFFFFF;
+	top: 0;	
+}
+.content_top .ind-logo{
+	width:1180px;
+margin:0 auto;}
+
+.content_top .BN240{
+	width:240px;
+	height:63px;
+	float: left;
+	position: relative;
+    margin-left:260px;}
+	
+.content_top .search{
+   font-size: 12px;
+   width: 350px;
+   height: 56px;
+   float: left;
+   position: relative;
+   /*margin-left:540px;**沒有BN的距離*/
+   margin-left:20px;
+	}
+.content_top .search a:link	{
+	text-decoration: none;
+	color: #999999;}
+.content_top .search a:visited {
+	color: #a91f24;}
+	
+.content_top .search .inputALL {
+  font-size: 12px;
+  border: #999999 1px solid;
+  position: relative;
+  top: 7px;
+  left: 1px;
+  height: 25px;
+  width: 236px;
+  padding-left: 1px;
+  padding-top: 0px;
+  letter-spacing: 2px;
+  color: #999999;
+}
+
+.content_top .search input {
+  font-size: 12px;
+  border: 0;
+  position: relative;
+  left: 1px;
+  height: 24px;
+  width: 210px;
+  padding-top: 0px;
+  letter-spacing: 2px;
+  color: #999999;
+}
+
+.content_top .search .icon-search {
+  cursor: pointer;
+  border: none;
+  top: 8px;
+  background: url('../images/Sear-icon.jpg') no-repeat;
+  width: 28px;
+  position: absolute;
+  left: 210px;
+  height: 26px;
+}
+.content_top .search .icon-search:hover {
+  background: url('../images/Sear-icon-over.jpg') no-repeat;}
+
+
+.content_top .search .icon-WEB {
+  cursor: pointer;
+  border: none;
+  top: 6px;
+  float:left;
+ /* background: url('../images/Sear-icon.jpg') no-repeat;*/
+  width: 28px;
+  position: absolute;
+  height: 26px;
+  }
+  
+.icon-WEB img {
+  opacity:0.4;
+  filter:alpha(opacity=40); /* 针对 IE8 以及更早的版本 */
+  }
+.icon-WEB img:hover {
+  opacity:1;
+  filter:alpha(opacity=100); /* 针对 IE8 以及更早的版本 */}	
+.member_links {
+	margin: 0px auto;
+	width: 1180px;
+	top: 0;
+	color: #FFFFFF;
+	/*width: 720px;*/
+	height: 26px;
+	/*float: right;*/
+	font-size: 12px;
+	line-height: 26px;
+}
+.member_links a:link, a:visited, a:hover, a:active{
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+.member_links ul{
+	font-family:\5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4, Microsoft Jhenghei;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding:0px;
+	/*display:inline;*/
+	}
+	
+.member_links li{
+	cursor: pointer;
+	float:left;
+	list-style: none; 
+	margin-left: 25px;
+	}
+	
+.member_links a:link a:hover{
+	text-decoration: none;
+	color: #333333;}
+	
+.member_links a:visited{
+	color: #333333;}
+
+.Language_icon {
+	cursor: pointer;
+	float: left;
+	list-style: none;
+	background-color: #535353;
+	text-align: center;
+	color: #ffffff;
+	width: 100px;
+	height: 26px;
+	display: block;
+	}
+	
+.Language_icon:hover {
+	background-color: #A6A6A6;
+	color: #000000;
+}
+	
+	
+.shop_icon{
+	margin: 0px auto;
+	width: 950px;
+    height: 53px;
+	clear:both;
+	}	
+.shop_icon_1180{
+    margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	width: 1180px;
+	height: 45px;
+	clear: both;
+	padding-top: 10px;
+	}	
+.in_loca{
+	color: #FFFFFF;
+	background-color: #000000;
+	background-image: url(../images/arrtop.png);
+	background-repeat: no-repeat;
+	background-position:center bottom;
+}
+
+.shop_icon ul,.shop_icon_1180 ul{
+	font-family: \5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4, Microsoft Jhenghei;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	width: 1180px;
+	}	
+.shop_icon li{
+	font-family: \5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4, Microsoft Jhenghei;
+	float:left;
+	list-style: none; 
+	display:inline;
+	margin-left: 80px;
+	font-size: 16px;
+	line-height:53px;
+	
+	}
+	
+		
+.shop_icon_1180 li{
+	float: left;
+	list-style: none;
+	display: block;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-size: 16px;
+	line-height: 45px;
+	height: 45px;
+	text-align: center;
+	color: #000000;
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	}
+	
+@media screen and (max-device-width:768px){
+	.shop_icon_1180 li{
+	padding-left: 32px;
+	padding-right: 32px;
+	background-image: none;
+	}
+	}
+
+.shop_icon_1180 li:hover{
+	color:#FFFFFF;
+	background-color:#000000;}
+
+	
+		
+.shop_icon li a:link,.shop_icon_1180 li a:link{
+	color:#000000;
+	text-decoration: none;}	
+	
+.shop_icon li a:visited,.shop_icon_1180 li a:visited{
+	color:#000000;}	
+
+.shop_icon li a:hover,.shop_icon_1180 li a:hover{
+	color:#FFFFFF;
+	background-color:#000000;}
+
+
+.event_all{
+	width: 100%;
+	height: 40px;
+	background-color: #eeeeee;
+	color: #000000;
+	text-align: center;
+	font-family: \5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4, Microsoft Jhenghei;
+}	
+
+
+
+.event_all ul {
+	padding:0;
+	margin: 0px auto;
+ 	}	
+.event_all li{
+	float: left;
+	list-style: none;
+	display: block;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 0.9em;
+	line-height: 40px;
+	height: 40px;
+	text-align: center;}
+
+	
+.event_all a {
+	color:#000000;}
+	
+.event_all li:hover, .event_all a:hover {
+	color:#666666;
+	/*background-color:#F9D9EA;*/}
+	
+.Footer {
+	margin: 0px auto;
+	clear: both;
+	position: relative;
+	width: 1180px;
+	height: 440px;
+	border-top: 4px solid #000000;
+}
+
+.Footer .Servic{
+	margin: 0px auto;
+	clear: both;
+	position: relative;
+	width: 1180px;
+	height: 145px;
+}
+
+.Footer ul {
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-right: 23px;
+	list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.Footer li{
+	font-family: Helvetica, Microsoft Jhenghei, sans-serif;
+	font-size:12px;
+	line-height:24px;
+	}	
+.Footer li.tit{
+	font-size: 18px;
+	line-height: 26px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+}
+
+.Footer li a:link{
+	color:#000000;
+	text-decoration: none;}	
+	
+.Footer li a:hover{
+	color:#666666;}
+	
+.Footer li a:visited{
+	color:#000000;}
+
+.Footer ul.HELP{
+	padding-top: 30px;
+    padding-left: 70px;}
+	
+.Footer ul.MORE{
+	padding-top: 30px;
+    padding-left: 127px;}
+	
+.Footer ul.FOLLOW{
+	padding-top: 30px;
+    padding-left: 86px;}
+	
+.Footer ul.ABOUT{
+	padding-top: 30px;
+    padding-left: 80px;}
+	
+.Footer ul.LINK{
+	padding-top: 30px;
+    padding-left: 106px;}
+	
+.Footer .visa{
+	position: relative;
+    display: inline-block;
+	padding-top: 40px;
+	text-align: center;
+	font-family: Helvetica, Microsoft Jhenghei, sans-serif;
+	font-size:12px;
+	line-height: 20px;
+	width: 1180px;
+	}	
+.Footer .visa a:link{
+	color:#000000;
+	text-decoration: none;}	
+	
+.Footer .visa a:hover{
+	color:#666666;}
+	
+.Footer .visa a:visited{
+	color:#000000;}	
+	
+.Footer .COPYRIGHT{
+	text-align: center;
+	font-family: Helvetica, Microsoft Jhenghei, sans-serif;
+	font-size: 10px;
+	line-height: 26px;
+	color: #999999;
+}
+	
+	
+/*----------跳出設定視窗-----------*/
+
+.Jump {
+	font-family: Helvetica, Microsoft Jhenghei, sans-serif;
+	}
+	
+.Jump ul{
+	list-style: none;
+    margin: 0;
+    padding: 0;
+	width: 480px;}
+	
+.Jump li.tit{
+	border-bottom: #999999 1px solid;
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.Jump li.tit2{
+	margin-left:5px;
+	margin-top:10px;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.Jump .Language_button {
+	font-family: Helvetica, Microsoft Jhenghei, sans-serif;
+	cursor: pointer;
+	border: #999999 1px solid;
+	text-align: center;
+	color:#000000;
+	background-color:#FFFFFF;
+	width:100px;
+	height:36px;
+	line-height:34px;
+	float:left;
+	font-size:14px;
+	/*margin-top:10px;*/
+	margin-left:5px;
+	display: block;}
+	
+.Jump .Language_button:hover {
+	background-color: #FDFADA;
+	border: #000000 1px solid;
+}
+	
+.Jump .select {
+	margin-left:5px;
+	margin-top:5px;
+	border: #999999 1px solid;
+	width:250px;
+	line-height:25px;
+	height:25px;}
+	
+	
+.sami_button {
+	font-family: Helvetica, Microsoft Jhenghei, sans-serif;
+	cursor: pointer;
+	border: #999999 1px solid;
+	text-align: center;
+	color:#ffffff;
+	background-color:#333333;
+	width:120px;
+	height:40px;
+	line-height:40px;
+	float:left;
+	font-size:18px;
+	/*margin-top:10px;*/
+	margin-left:5px;
+	display: block;}
+	
+.sami_button:hover {
+	background-color: #000000;
+	border: #000000 1px solid;
+}	
+
+
+
+
+
+/*-----------------行動版簡化SKY CSS------------------
+
+
+
+
+.sky_bua_mobi {
+	display: block;
+	width: 100%;
+	position: fixed;
+	height: 100px;
+	background-color: #000000;
+	z-index: 9999;
+	margin: 0px;
+	padding: 0px;
+	top: 0px;	/*margin-left: -90px;
+	*margin-left: -670px!important;
+} */
+
+
+/*.member_links_mobi {
+	margin: 0px auto;
+	width: 1000px;
+	top: 0;
+	color: #FFFFFF;
+	height: 100px;
+	font-size: 20px;
+	line-height: 100px;
+}
+/*.member_links_mobi a:link, a:visited, a:hover, a:active{
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+.member_links_mobi ul{
+	font-family:\5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4, Microsoft Jhenghei;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding:0px;
+	/*display:inline;*/
+
+	
+/*ul.mobi_icon {
+	margin: 0px auto;
+	width: 1000px;
+	top: 0;
+	color: #FFFFFF;
+	height: 100px;
+	font-size: 20px;
+	line-height: 100px;
+	padding: 0px;
+}
+/*
+ul.mobi_icon li {
+	font-family:\5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4, Microsoft Jhenghei;
+	cursor: pointer;
+	float: left;
+	list-style: none;
+	background-color: #2F2F2F;
+	text-align: center;
+	color: #ffffff;
+	width: 24%;
+	height: 100px;
+	display: block;
+	}
+	
+ul.mobi_icon li:hover {
+	background-color: #A6A6A6;
+	color: #000000;
+}
+
+ul.mobi_icon a:link, a:visited, a:hover, a:active{
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+
+           /* 特定在第一層 > 第二層或以後下拉部分之樣式 */
+			/*ul.mobi_icon ul{
+				display: none;
+				width: 100%;
+				/*float: left;
+				position: relative;			
+				left: 0;
+				padding:0;	
+				margin: 0;
+			}
+			/* 當第一層選單被觸發時，指定第二層顯示 */
+			/*ul.mobi_icon li:hover > ul{
+				display: block;
+			}			
+			/* 特定在第二層或以後下拉部分 li 之樣式 */
+			/*ul.mobi_icon ul li {
+				width: 100%;
+				border-bottom: 1px solid #DDD;
+			}
+			/* 特定在第二層或以後下拉部分 li （最後一項不要底線）之樣式 */
+			/*ul.mobi_icon ul li:last-child {
+				border-bottom: none;
+			}
+			
+	
