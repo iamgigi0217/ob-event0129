@@ -11,6 +11,7 @@
 
     .header-kv {
         position: relative;
+        overflow: hidden;
     }
 
     .header-kv-bg {
@@ -82,7 +83,6 @@
     .header-limit {
         margin: 0 auto;
         padding: 0;
-        background: transparent url('images/limit-pattern.jpg') repeat 0 0;
     }
 
     .header-limit-bg {
@@ -93,13 +93,15 @@
         position: relative;
         top: -80px;
         padding: 0;
-        background: transparent url('images/limit-pattern.jpg') repeat 0 0;
     }
 
     .wrap {
         max-width: 1180px;
         margin: 0 auto;
         position: relative;
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
     }
 
     .wrap-img {
