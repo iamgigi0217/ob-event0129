@@ -1,235 +1,240 @@
-﻿    @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
-    body {
-        font-family: Arial, "Noto Sans TC", "WenQuanYi Zen Hei", "LiHei Pro", "Microsoft JhengHei", sans-serif;
-    }
+﻿@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+body {
+    font-family: Arial, "Noto Sans TC", "WenQuanYi Zen Hei", "LiHei Pro", "Microsoft JhengHei", sans-serif;
+}
 
-    .header {
-        max-width: 1920px;
-        position: relative;
-        margin: 0 auto;
-    }
+.header {
+    max-width: 1920px;
+    position: relative;
+    margin: 0 auto;
+}
 
-    .header-kv {
-        position: relative;
-    }
+.header-kv {
+    position: relative;
+    overflow: hidden;
+}
 
-    .header-kv-bg {
-        max-width: 100%;
-        display: block;
-        margin: 0;
-    }
+.header-kv-bg {
+    max-width: 100%;
+    display: block;
+    margin: 0;
+}
 
-    .header-kv-md {
-        width: 30%;
-        position: absolute;
-        left: 50%;
-        margin-left: -15%;
-        bottom: 0;
-    }
+.header-kv-md {
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    margin-left: -15%;
+    bottom: 0;
+}
 
-    .delay1s {
-        animation-delay: 1s;
-    }
+.delay1s {
+    animation-delay: 1s;
+}
 
-    .delay2s {
-        animation-delay: 2s;
-    }
+.delay2s {
+    animation-delay: 2s;
+}
 
-    .header-kv-title {
-        position: absolute;
-        display: block;
-        width: 70%;
-        top: 50%;
-        left: 50%;
-        margin-left: -37%;
-        margin-top: -11%;
-    }
+.header-kv-title {
+    position: absolute;
+    display: block;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    margin-left: -37%;
+    margin-top: -11%;
+}
 
-    .header-kv-gift {
-        position: absolute;
-        display: block;
-        width: 23%;
-        top: 50%;
-        left: 50%;
-        margin-left: 8%;
-        margin-top: 4%;
-        z-index: 20;
-    }
+.header-kv-gift {
+    position: absolute;
+    display: block;
+    width: 23%;
+    top: 50%;
+    left: 50%;
+    margin-left: 8%;
+    margin-top: 4%;
+    z-index: 20;
+}
 
-    .coupon {
-        width: 40%;
-        position: absolute;
-        height: auto;
-        top: 50%;
-        left: 50%;
-        margin-left: -28%;
-        margin-top: 4%;
-        font-size: 0;
-    }
+.coupon {
+    width: 40%;
+    position: absolute;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    margin-left: -28%;
+    margin-top: 4%;
+    font-size: 0;
+}
 
-    .coupon a {
-        display: inline-block;
-        width: 30%;
-        margin-right: 2%;
-    }
+.coupon a {
+    display: inline-block;
+    width: 30%;
+    margin-right: 2%;
+}
 
-    .coupon-img {
-        max-width: 100%;
-        display: block;
-        margin: 0;
-    }
+.coupon-img {
+    max-width: 100%;
+    display: block;
+    margin: 0;
+}
 
-    .header-limit {
-        margin: 0 auto;
-        padding: 0;
-        background: transparent url('images/limit-pattern.jpg') repeat 0 0;
-    }
+.header-limit {
+    margin: 0 auto;
+    padding: 0;
+    background: transparent url('images/limit-pattern.jpg') repeat 0 0;
+}
 
-    .header-limit-bg {
-        max-width: 100%;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-        position: relative;
-        top: -80px;
-        z-index: 30;
-        padding: 0;
-        background: transparent url('images/limit-pattern.jpg') repeat 0 0;
-    }
+.header-limit-bg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -80px;
+    z-index: 30;
+    padding: 0;
+    background: transparent url('images/limit-pattern.jpg') repeat 0 0;
+}
 
-    .wrap {
-        max-width: 1180px;
-        margin: 0 auto;
-        position: relative;
-    }
+.wrap {
+    max-width: 1180px;
+    margin: 0 auto;
+    position: relative;
+}
 
-    .wrap-img {
-        max-width: 100%;
-        height: auto;
-    }
+.wrap-img {
+    max-width: 100%;
+    height: auto;
+}
 
-    .new-arrivals,
-    .sale-bar {
-        max-width: 1180px;
-        margin: 0 auto;
-        position: relative;
-    }
-    /*-sale bar-*/
+.new-arrivals,
+.sale-bar {
+    max-width: 1180px;
+    margin: 0 auto;
+    position: relative;
+}
 
-    .sale-bar_1 {
-        width: 22%;
-        height: 36%;
-        display: block;
-        position: absolute;
-        background-color: rgba(255, 50, 22, 0.5);
-        z-index: 1;
-        left: 0%;
-        top: 22%;
-    }
 
-    .sale-bar_2 {
-        width: 24%;
-        height: 36%;
-        display: block;
-        position: absolute;
-        background-color: rgba(255, 50, 22, 0.5);
-        z-index: 1;
-        left: 24%;
-        top: 22%;
-    }
+/*-sale bar-*/
 
-    .sale-bar_3 {
-        width: 24%;
-        height: 36%;
-        display: block;
-        position: absolute;
-        background-color: rgba(255, 50, 22, 0.5);
-        z-index: 1;
-        left: 50%;
-        top: 22%;
-    }
+.sale-bar_1 {
+    width: 22%;
+    height: 36%;
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 50, 22, 0.5);
+    z-index: 1;
+    left: 0%;
+    top: 22%;
+}
 
-    .sale-bar_4 {
-        width: 24%;
-        height: 36%;
-        display: block;
-        position: absolute;
-        background-color: rgba(255, 50, 22, 0.5);
-        z-index: 1;
-        left: 76%;
-        top: 22%;
-    }
+.sale-bar_2 {
+    width: 24%;
+    height: 36%;
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 50, 22, 0.5);
+    z-index: 1;
+    left: 24%;
+    top: 22%;
+}
 
-    .sale-bar_5 {
-        width: 22%;
-        height: 36%;
-        display: block;
-        position: absolute;
-        background-color: rgba(255, 50, 22, 0.5);
-        z-index: 1;
-        left: 0%;
-        top: 60%;
-    }
+.sale-bar_3 {
+    width: 24%;
+    height: 36%;
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 50, 22, 0.5);
+    z-index: 1;
+    left: 50%;
+    top: 22%;
+}
 
-    .sale-bar_6 {
-        width: 24%;
-        height: 36%;
-        display: block;
-        position: absolute;
-        background-color: rgba(255, 50, 22, 0.5);
-        z-index: 1;
-        left: 24%;
-        top: 60%;
-    }
+.sale-bar_4 {
+    width: 24%;
+    height: 36%;
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 50, 22, 0.5);
+    z-index: 1;
+    left: 76%;
+    top: 22%;
+}
 
-    .sale-bar_7 {
-        width: 24%;
-        height: 36%;
-        display: block;
-        position: absolute;
-        background-color: rgba(255, 50, 22, 0.5);
-        z-index: 1;
-        left: 50%;
-        top: 60%;
-    }
+.sale-bar_5 {
+    width: 22%;
+    height: 36%;
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 50, 22, 0.5);
+    z-index: 1;
+    left: 0%;
+    top: 60%;
+}
 
-    .sale-bar_8 {
-        width: 24%;
-        height: 36%;
-        display: block;
-        position: absolute;
-        background-color: rgba(255, 50, 22, 0.5);
-        z-index: 1;
-        left: 76%;
-        top: 60%;
-    }
+.sale-bar_6 {
+    width: 24%;
+    height: 36%;
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 50, 22, 0.5);
+    z-index: 1;
+    left: 24%;
+    top: 60%;
+}
 
-    .banner img {
-        display: block;
-        margin: 0 auto;
-        width: 66%;
-        margin-bottom: 1%;
-    }
-    /*-new-arrivals-*/
+.sale-bar_7 {
+    width: 24%;
+    height: 36%;
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 50, 22, 0.5);
+    z-index: 1;
+    left: 50%;
+    top: 60%;
+}
 
-    .new-arrivals_1 {
-        width: 30%;
-        height: 13%;
-        display: block;
-        position: absolute;
-        background-color: rgba(255, 50, 22, 0.5);
-        z-index: 1;
-        left: 70%;
-        top: 83%;
-    }
+.sale-bar_8 {
+    width: 24%;
+    height: 36%;
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 50, 22, 0.5);
+    z-index: 1;
+    left: 76%;
+    top: 60%;
+}
 
-    .new-arrivals_2 {
-        width: 30%;
-        height: 13%;
-        display: block;
-        position: absolute;
-        background-color: rgba(255, 50, 22, 0.5);
-        z-index: 1;
-        left: 38%;
-        top: 83%;
-    }
+.banner img {
+    display: block;
+    margin: 0 auto;
+    width: 66%;
+    margin-bottom: 1%;
+}
+
+
+/*-new-arrivals-*/
+
+.new-arrivals_1 {
+    width: 30%;
+    height: 13%;
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 50, 22, 0.5);
+    z-index: 1;
+    left: 70%;
+    top: 83%;
+}
+
+.new-arrivals_2 {
+    width: 30%;
+    height: 13%;
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 50, 22, 0.5);
+    z-index: 1;
+    left: 38%;
+    top: 83%;
+}
