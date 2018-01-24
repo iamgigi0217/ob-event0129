@@ -10,61 +10,91 @@
     }
 
     .header-kv {
-        max-width: 100%;
-        height: auto;
         position: relative;
-        background-image: url('images/event_1920_V1_01.jpg');
-        background-size: auto 100%;
-        background-position: center top;
+    }
+
+    .header-kv-bg {
+        max-width: 100%;
+        display: block;
+        margin: 0;
     }
 
     .header-kv-md {
-        max-width: 100%;
-        display: block;
-        margin: 0 auto;
-        height: auto;
-        z-index: 1;
+        width: 30%;
+        position: absolute;
+        left: 50%;
+        margin-left: -15%;
+        bottom: 0;
+    }
+
+    .delay1s {
+        animation-delay: 1s;
+    }
+
+    .delay2s {
+        animation-delay: 2s;
     }
 
     .header-kv-title {
         position: absolute;
         display: block;
-        max-width: 100%;
-        top: 28%;
-        left: 5%;
+        width: 70%;
+        top: 50%;
+        left: 50%;
+        margin-left: -37%;
+        margin-top: -11%;
     }
 
-    .red {
+    .header-kv-gift {
         position: absolute;
+        display: block;
+        width: 23%;
+        top: 50%;
+        left: 50%;
+        margin-left: 8%;
+        margin-top: 4%;
+        z-index: 20;
+    }
+
+    .coupon {
+        width: 40%;
+        position: absolute;
+        height: auto;
+        top: 50%;
+        left: 50%;
+        margin-left: -28%;
+        margin-top: 4%;
+        font-size: 0;
+    }
+
+    .coupon a {
+        display: inline-block;
+        width: 30%;
+        margin-right: 2%;
+    }
+
+    .coupon-img {
+        max-width: 100%;
+        display: block;
+        margin: 0;
+    }
+
+    .header-limit {
+        margin: 0 auto;
+        padding: 0;
+        background: transparent url('images/limit-pattern.jpg') repeat 0 0;
+    }
+
+    .header-limit-bg {
         max-width: 100%;
         height: auto;
-        display: inline-block;
-        top: 56%;
-        margin: 0 auto;
-        font-size:
-    }
-
-    .header-kv-red50 {
-        width: 34%;
-        height: 61%;
-        display: inline-block;
-        position: absolute;
-        background-color: rgba(255, 50, 22, 0.5);
-        z-index: 1;
-        left: 1%;
-        top: 5%;
-    }
-
-    .nav {
-        width: 66%;
         display: block;
-        z-index: 1;
-        position: absolute;
-        text-align: center;
-        top: 69%;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 0;
+        margin: 0 auto;
+        position: relative;
+        top: -80px;
+        z-index: 30;
+        padding: 0;
+        background: transparent url('images/limit-pattern.jpg') repeat 0 0;
     }
 
     .wrap {
@@ -78,81 +108,100 @@
         height: auto;
     }
 
-    .woman-1212 {
-        width: 34%;
-        height: 61%;
+    .new-arrivals,
+    .sale-bar {
+        max-width: 1180px;
+        margin: 0 auto;
+        position: relative;
+    }
+    /*-sale bar-*/
+
+    .sale-bar_1 {
+        width: 22%;
+        height: 36%;
         display: block;
         position: absolute;
         background-color: rgba(255, 50, 22, 0.5);
         z-index: 1;
-        left: 1%;
-        top: 5%;
+        left: 0%;
+        top: 22%;
     }
 
-    .men-1212 {
-        width: 62%;
-        height: 39%;
+    .sale-bar_2 {
+        width: 24%;
+        height: 36%;
         display: block;
         position: absolute;
         background-color: rgba(255, 50, 22, 0.5);
         z-index: 1;
-        left: 37%;
-        top: 5%;
+        left: 24%;
+        top: 22%;
     }
 
-    .mom-1212 {
-        width: 32%;
-        height: 28%;
+    .sale-bar_3 {
+        width: 24%;
+        height: 36%;
         display: block;
         position: absolute;
         background-color: rgba(255, 50, 22, 0.5);
         z-index: 1;
-        left: 37%;
-        top: 46%;
+        left: 50%;
+        top: 22%;
     }
 
-    .shoe-1212 {
-        width: 29%;
-        height: 19%;
+    .sale-bar_4 {
+        width: 24%;
+        height: 36%;
         display: block;
         position: absolute;
         background-color: rgba(255, 50, 22, 0.5);
         z-index: 1;
-        left: 70%;
-        top: 47%;
+        left: 76%;
+        top: 22%;
     }
 
-    .sport-1212 {
-        width: 34%;
-        height: 27%;
+    .sale-bar_5 {
+        width: 22%;
+        height: 36%;
         display: block;
         position: absolute;
         background-color: rgba(255, 50, 22, 0.5);
         z-index: 1;
-        left: 1%;
-        top: 68%;
+        left: 0%;
+        top: 60%;
     }
 
-    .kitty-1212 {
-        width: 32%;
-        height: 25%;
+    .sale-bar_6 {
+        width: 24%;
+        height: 36%;
         display: block;
         position: absolute;
         background-color: rgba(255, 50, 22, 0.5);
         z-index: 1;
-        left: 37%;
-        top: 76%;
+        left: 24%;
+        top: 60%;
     }
 
-    .sale-1212 {
-        width: 30%;
-        height: 20%;
+    .sale-bar_7 {
+        width: 24%;
+        height: 36%;
         display: block;
         position: absolute;
         background-color: rgba(255, 50, 22, 0.5);
         z-index: 1;
-        left: 70%;
-        top: 69%;
+        left: 50%;
+        top: 60%;
+    }
+
+    .sale-bar_8 {
+        width: 24%;
+        height: 36%;
+        display: block;
+        position: absolute;
+        background-color: rgba(255, 50, 22, 0.5);
+        z-index: 1;
+        left: 76%;
+        top: 60%;
     }
 
     .banner img {
@@ -161,623 +210,26 @@
         width: 66%;
         margin-bottom: 1%;
     }
+    /*-new-arrivals-*/
 
-    .sport-1212-content,
-    .men-1212-content,
-    .mom-1212-content,
-    .kitty-1212-content,
-    .woman-1212-content {
-        max-width: 1180px;
-        margin: 0 auto;
-        position: relative;
-    }
-    /*woman*/
-
-    .woman-BA3595 {
-        width: 23%;
-        height: 19%;
-        display: block;
-        position: absolute;
-        background-color: rgba(210, 177, 22, 0.5);
-        z-index: 1;
-        left: 8%;
-        top: 9%;
-    }
-
-    .woman-AB5213 {
-        width: 27%;
-        height: 11%;
-        display: block;
-        position: absolute;
-        background-color: rgba(210, 177, 22, 0.5);
-        z-index: 1;
-        left: 35%;
-        top: 11%;
-    }
-
-    .woman-BA2962 {
-        width: 27%;
-        height: 7%;
-        display: block;
-        position: absolute;
-        background-color: rgba(210, 177, 22, 0.5);
-        z-index: 1;
-        left: 33%;
-        top: 22%;
-    }
-
-    .woman-EA2147 {
-        width: 27%;
-        height: 18%;
-        display: block;
-        position: absolute;
-        background-color: rgba(210, 177, 22, 0.5);
-        z-index: 1;
-        left: 66%;
-        top: 11%;
-    }
-
-    .woman-BA3623 {
-        width: 35%;
+    .new-arrivals_1 {
+        width: 30%;
         height: 13%;
         display: block;
         position: absolute;
-        background-color: rgba(67, 94, 113, 0.5);
+        background-color: rgba(255, 50, 22, 0.5);
         z-index: 1;
-        left: 5%;
-        top: 39%;
+        left: 70%;
+        top: 83%;
     }
 
-    .woman-AB4723 {
-        width: 28%;
-        height: 8%;
-        display: block;
-        position: absolute;
-        background-color: rgba(67, 94, 113, 0.5);
-        z-index: 1;
-        left: 5%;
-        top: 32%;
-    }
-
-    .woman-FA0527 {
-        width: 26%;
-        height: 10%;
-        display: block;
-        position: absolute;
-        background-color: rgba(67, 94, 113, 0.5);
-        z-index: 1;
-        left: 42%;
-        top: 32%;
-    }
-
-    .woman-DA5184 {
-        width: 24%;
-        height: 11%;
-        display: block;
-        position: absolute;
-        background-color: rgba(67, 94, 113, 0.5);
-        z-index: 1;
-        left: 69%;
-        top: 32%;
-    }
-
-    .woman-KG0175 {
-        width: 25%;
-        height: 8%;
-        display: block;
-        position: absolute;
-        background-color: rgba(67, 94, 113, 0.5);
-        z-index: 1;
-        left: 61%;
-        top: 44%;
-    }
-
-    .woman-DA5139 {
-        width: 29%;
-        height: 18%;
-        display: block;
-        position: absolute;
-        background-color: rgba(218, 129, 129, 0.5);
-        z-index: 1;
-        left: 6%;
-        top: 64%;
-    }
-
-    .woman-DA5209 {
-        width: 27%;
-        height: 21%;
-        display: block;
-        position: absolute;
-        background-color: rgba(218, 129, 129, 0.5);
-        z-index: 1;
-        left: 36%;
-        top: 62%;
-    }
-
-    .woman-FA1580 {
-        width: 32%;
-        height: 11%;
-        display: block;
-        position: absolute;
-        background-color: rgba(218, 129, 129, 0.5);
-        z-index: 1;
-        left: 64%;
-        top: 62%;
-    }
-
-    .woman-DA2809 {
+    .new-arrivals_2 {
         width: 30%;
-        height: 9%;
+        height: 13%;
         display: block;
         position: absolute;
-        background-color: rgba(218, 129, 129, 0.5);
-        z-index: 1;
-        left: 66%;
-        top: 73%;
-    }
-
-    .woman-DA4971 {
-        width: 14%;
-        height: 10%;
-        display: block;
-        position: absolute;
-        background-color: rgba(127, 127, 127, 0.5);
-        z-index: 1;
-        left: 3%;
-        top: 89%;
-    }
-
-    .woman-DA4201 {
-        width: 14%;
-        height: 10%;
-        display: block;
-        position: absolute;
-        background-color: rgba(127, 127, 127, 0.5);
-        z-index: 1;
-        left: 20%;
-        top: 89%;
-    }
-
-    .woman-DA5183 {
-        width: 14%;
-        height: 10%;
-        display: block;
-        position: absolute;
-        background-color: rgba(127, 127, 127, 0.5);
-        z-index: 1;
-        left: 36%;
-        top: 89%;
-    }
-
-    .woman-DA5053 {
-        width: 14%;
-        height: 10%;
-        display: block;
-        position: absolute;
-        background-color: rgba(127, 127, 127, 0.5);
-        z-index: 1;
-        left: 51%;
-        top: 89%;
-    }
-
-    .woman-DA5167 {
-        width: 14%;
-        height: 10%;
-        display: block;
-        position: absolute;
-        background-color: rgba(127, 127, 127, 0.5);
-        z-index: 1;
-        left: 66%;
-        top: 89%;
-    }
-
-    .woman-DA3048 {
-        width: 14%;
-        height: 10%;
-        display: block;
-        position: absolute;
-        background-color: rgba(127, 127, 127, 0.5);
-        z-index: 1;
-        left: 82%;
-        top: 89%;
-    }
-    /*kitty*/
-
-    .kitty-KB0723 {
-        width: 26%;
-        height: 54%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 6%;
-        top: 9%;
-    }
-
-    .kitty-KB0714 {
-        width: 29%;
-        height: 51%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 33%;
-        top: 9%;
-    }
-
-    .kitty-KB0717 {
-        width: 31%;
-        height: 54%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 66%;
-        top: 9%;
-    }
-
-    .kitty-KB0728 {
-        width: 16%;
-        height: 20%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 3%;
-        top: 69%;
-    }
-
-    .kitty-KB0713 {
-        width: 15%;
-        height: 23%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 20%;
-        top: 74%;
-    }
-
-    .kitty-KB0699 {
-        width: 16%;
-        height: 22%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 36%;
-        top: 70%;
-    }
-
-    .kitty-KB0721 {
-        width: 14%;
-        height: 22%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 53%;
-        top: 64%;
-    }
-
-    .kitty-KB0694 {
-        width: 16%;
-        height: 17%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 66%;
-        top: 80%;
-    }
-
-    .kitty-KB0661 {
-        width: 16%;
-        height: 20%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 81%;
-        top: 65%;
-    }
-    /*mom*/
-
-    .mom-MA0101 {
-        width: 26%;
-        height: 23%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 6%;
-        top: 7%;
-    }
-
-    .mom-MA0127 {
-        width: 29%;
-        height: 23%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
+        background-color: rgba(255, 50, 22, 0.5);
         z-index: 1;
         left: 38%;
-        top: 9%;
-    }
-
-    .mom-MA0097 {
-        width: 31%;
-        height: 23%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 67%;
-        top: 9%;
-    }
-
-    .mom-MA0124 {
-        width: 39%;
-        height: 26%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 10%;
-        top: 41%;
-    }
-
-    .mom-MA0126 {
-        width: 46%;
-        height: 26%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 51%;
-        top: 41%;
-    }
-
-    .mom-MA0100 {
-        width: 46%;
-        height: 23%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 5%;
-        top: 73%;
-    }
-
-    .mom-MA0117 {
-        width: 43%;
-        height: 22%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 53%;
-        top: 73%;
-    }
-    /*men*/
-
-    .men-KL0320 {
-        width: 88%;
-        height: 20%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 6%;
-        top: 13%;
-    }
-
-    .men-KL0375 {
-        width: 17%;
-        height: 19%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 27%;
-        top: 34%;
-    }
-
-    .men-KL0321 {
-        width: 17%;
-        height: 19%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 44%;
-        top: 34%;
-    }
-
-    .men-KL0331 {
-        width: 14%;
-        height: 19%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 61%;
-        top: 34%;
-    }
-
-    .men-KL0376 {
-        width: 14%;
-        height: 19%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 77%;
-        top: 34%;
-    }
-
-    .men-KL0309 {
-        width: 91%;
-        height: 21%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 6%;
-        top: 57%;
-    }
-
-    .men-KL0355 {
-        width: 16%;
-        height: 20%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 6%;
-        top: 78%;
-    }
-
-    .men-KL0378 {
-        width: 16%;
-        height: 20%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 22%;
-        top: 78%;
-    }
-
-    .men-KL0352 {
-        width: 16%;
-        height: 20%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 38%;
-        top: 78%;
-    }
-
-    .men-KL0319 {
-        width: 16%;
-        height: 20%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 54%;
-        top: 78%;
-    }
-    /*sport*/
-
-    .sport-KS0329 {
-        width: 53%;
-        height: 23%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 6%;
-        top: 13%;
-    }
-
-    .sport-KS0345 {
-        width: 38%;
-        height: 24%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 60%;
-        top: 9%;
-    }
-
-    .sport-KS0359 {
-        width: 34%;
-        height: 1%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 63%;
-        top: 44.5%;
-    }
-
-    .sport-KS0349 {
-        width: 34%;
-        height: 1.2%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 63%;
-        top: 46.2%;
-    }
-
-    .sport-MA0126 {
-        width: 34%;
-        height: 1.2%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 63%;
-        top: 47.7%;
-    }
-
-    .sport-KS0330 {
-        width: 34%;
-        height: 1.2%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 63%;
-        top: 49.6%;
-    }
-
-    .sport-KS0335 {
-        width: 46%;
-        height: 32%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 6%;
-        top: 63%;
-    }
-
-    .sport-KS0292 {
-        width: 27%;
-        height: 14%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 52%;
-        top: 79%;
-    }
-
-    .sport-KS0351 {
-        width: 21%;
-        height: 15%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 59%;
-        top: 59%;
-    }
-
-    .sport-KS0324 {
-        width: 21%;
-        height: 15%;
-        display: block;
-        position: absolute;
-        background-color: rgba(207, 81, 85, 0.5);
-        z-index: 1;
-        left: 59%;
-        top: 59%;
+        top: 83%;
     }
