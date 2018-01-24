@@ -92,7 +92,6 @@
         margin: 0 auto;
         position: relative;
         top: -80px;
-        z-index: 30;
         padding: 0;
         background: transparent url('images/limit-pattern.jpg') repeat 0 0;
     }
