@@ -91,7 +91,8 @@ body {
     display: block;
     margin: 0 auto;
     position: relative;
-    top: -80px;
+    top: 0;
+    transform: translate3d(0, -13%, 0);
     z-index: 30;
     padding: 0;
     background: transparent url('images/limit-pattern.jpg') repeat 0 0;
