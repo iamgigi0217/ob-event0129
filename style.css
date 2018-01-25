@@ -1,42 +1,40 @@
 @charset "utf-8";
-
 /* CSS Document */
 
-body,
-html {
+ body, html {
 	font-size: 100%;
 	padding: 0;
 	margin: 0;
-	font-family: \5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4, Microsoft Jhenghei, Helvetica, Arial, sans-serif;
+	font-family: \5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4, Microsoft Jhenghei, Helvetica, Arial, sans-serif;
 	width: 100%;
 	height: 100%;
-	background: transparent url('images/limit-pattern.jpg') repeat 0 0;
-}
+    background: transparent url(images/limit-pattern.jpg) repeat 0 0;
+    }
+    
 
-a {
+     a {
 	text-decoration: none;
 }
-
-.topBN {
-	width: 100%;
-	height: 560px;
-	background-image: url('https://obcdn4.obdesign.com.tw/images/ObdesignBanner/B2C/images/0920-Moon-Festival_1920x560.jpg');
-	background-repeat: no-repeat;
-	background-position: center center;
+		
+.topBN{
+			width: 100%;
+			height: 560px;
+			background-image: url('https://obcdn4.obdesign.com.tw/images/ObdesignBanner/B2C/images/0920-Moon-Festival_1920x560.jpg');
+			background-repeat: no-repeat;
+	        background-position:center center;
 }
+		
+/***商品區塊**/		
 
-
-/***商品區塊**/
-
-.BG_w_1180 {
+.BG_w_1180{
 	width: 1180px;
 	height: 100%;
 	margin-right: auto;
 	margin-left: auto;
-	background: rgba(0%, 0%, 100%, 0.4);
+	background: rgba(0%, 0%, 100%, 0.4) ;
 }
 
-.PRO-X4 {
+	.PRO-X4{
 	width: 1180px;
 	height: 430px;
 	margin-top: 10px;
@@ -45,313 +43,296 @@ a {
 	margin-bottom: 0px;
 	padding-left: 10px;
 	padding-right: 10px;
+		}
+		
+      .PRO-X4 .Pic_one {
+	      width: 270px;
+		  height: 400px;
+		  padding-left: 10px;
+		  padding-right: 10px;
+		  float:left;
 }
-
-.PRO-X4 .Pic_one {
-	width: 270px;
-	height: 400px;
-	padding-left: 10px;
-	padding-right: 10px;
-	float: left;
-}
-
-.PRO-X4 .Pic_one ul {
+.PRO-X4 .Pic_one ul{
 	margin: 0;
 	padding: 0;
 }
-
-.PRO-X4 .Pic_one li {
-	list-style: none;
+.PRO-X4 .Pic_one li{
+list-style: none; 
 }
-
-.PRO-X4 .Pic_one li img {
-	width: 100%;
+   .PRO-X4 .Pic_one li img{
+	      width: 100%;
+		 
 }
-
-.W1 {
-	font-family: \5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4, Microsoft Jhenghei, Helvetica, Arial, sans-serif;
+.W1{
+	font-family: \5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4, Microsoft Jhenghei, Helvetica, Arial, sans-serif;
 	display: block;
 	width: 270px;
 	height: 40px;
 	color: #FFFFFF;
 	font-weight: bold;
-	text-align: center;
+	text-align:center;
 	font-size: 24px;
 	line-height: 40px;
 	background-color: #e26b4d;
-}
-
+	}
 .W1-2 {
 	background-color: #e26b4d;
 }
-
 .W1-3 {
 	background-color: #2f5fc3;
 }
 
 .W2 {
 	height: 30px;
-	text-align: center;
+	text-align:center;
 	font-size: 15px;
 	line-height: 30px;
 	background-color: #f8f7d5;
-	font-family: \5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4, Microsoft Jhenghei, Helvetica, Arial, sans-serif;
+	font-family: \5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4, Microsoft Jhenghei, Helvetica, Arial, sans-serif;
 	color: #333333;
 }
-
-.W3_price {
+.W3_price{
 	font-family: Century Gothic;
 	color: #d92670;
 	background-color: #f8f7d5;
 	height: 50px;
 	line-height: 50px;
-	text-align: center;
+	text-align:center;
 }
 
-.PRO-X2 {
-	width: 1180px;
-	height: 260px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 0px;
-	padding-bottom: 10px;
+.PRO-X2{
+			width: 1180px;
+			height: 260px;
+	        margin-right: auto;
+	        margin-left: auto;
+         	margin-bottom: 0px;
+			padding-bottom: 10px;
 }
-
-.PRO-X2 img {
+		
+.PRO-X2 img{
 	width: 560px;
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-bottom: 20px;
 }
-
-.PRO-X2 ul {
+.PRO-X2 ul{
 	margin: 0;
 	padding: 0;
 }
-
-.PRO-X2 li {
-	float: left;
-	list-style: none;
+.PRO-X2 li{
+float:left;
+ list-style: none;
 }
+
 
 .PRO_tit_1 {
-	font-family: \5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4, Microsoft Jhenghei, Helvetica, Arial, sans-serif;
-	width: 1180px;
-	height: 80px;
-	font-size: 36px;
-	line-height: 80px;
-	color: #FFFFFF;
-	font-weight: bold;
-	text-align: center;
-	background-image: url('https://obcdn4.obdesign.com.tw/images/SUMMERSALE/02-1180x80.png');
-	background-repeat: no-repeat;
-	background-position: center center;
-	margin-top: 40px;
-	margin-right: auto;
-	margin-left: auto;
-}
+			font-family: \5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4, Microsoft Jhenghei, Helvetica, Arial, sans-serif;
+			width: 1180px;
+			height: 80px;
+			font-size: 36px;
+			line-height: 80px;
+			color: #FFFFFF;
+			font-weight: bold;
+			text-align:center;
+			background-image: url('https://obcdn4.obdesign.com.tw/images/SUMMERSALE/02-1180x80.png');
+			background-repeat: no-repeat;
+	        background-position:center center;
+	        margin-top:40px;
+			margin-right: auto;
+	       margin-left: auto;
+		}
 
 .PRO_tit_2 {
-	font-family: \5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4, Microsoft Jhenghei, Helvetica, Arial, sans-serif;
-	width: 1180px;
-	height: 80px;
-	font-size: 36px;
-	line-height: 80px;
-	color: #FFFFFF;
-	font-weight: bold;
-	text-align: center;
-	background-image: url('https://obcdn4.obdesign.com.tw/images/SUMMERSALE/02-1180x80.png');
-	background-repeat: no-repeat;
-	background-position: center center;
-	margin-top: 40px;
-	margin-right: auto;
-	margin-left: auto;
-}
+			font-family: \5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4, Microsoft Jhenghei, Helvetica, Arial, sans-serif;
+			width: 1180px;
+			height: 80px;
+			font-size: 36px;
+			line-height: 80px;
+			color: #FFFFFF;
+			font-weight: bold;
+			text-align:center;
+			background-image: url('https://obcdn4.obdesign.com.tw/images/SUMMERSALE/02-1180x80.png');
+			background-repeat: no-repeat;
+	        background-position:center center;
+	        margin-top:40px;
+			margin-right: auto;
+	       margin-left: auto;
+		}
+		
 
 .PRO_tit_3 {
-	font-family: \5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4, Microsoft Jhenghei, Helvetica, Arial, sans-serif;
-	width: 1180px;
-	height: 80px;
-	font-size: 36px;
-	line-height: 80px;
-	color: #FFFFFF;
-	font-weight: bold;
-	text-align: center;
-	background-image: url('https://obcdn4.obdesign.com.tw/images/SUMMERSALE/TIT-BG-3.png');
-	background-repeat: no-repeat;
-	background-position: center center;
-	margin-top: 40px;
-	margin-right: auto;
-	margin-left: auto;
-}
+			font-family: \5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4, Microsoft Jhenghei, Helvetica, Arial, sans-serif;
+			width: 1180px;
+			height: 80px;
+			font-size: 36px;
+			line-height: 80px;
+			color: #FFFFFF;
+			font-weight: bold;
+			text-align:center;
+			background-image: url('https://obcdn4.obdesign.com.tw/images/SUMMERSALE/TIT-BG-3.png');
+			background-repeat: no-repeat;
+	        background-position:center center;
+	        margin-top:40px;
+			margin-right: auto;
+	       margin-left: auto;
+		}
 
 .PRO_tit_4 {
-	font-family: \5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4, Microsoft Jhenghei, Helvetica, Arial, sans-serif;
-	width: 1180px;
-	height: 80px;
-	font-size: 36px;
-	line-height: 80px;
-	color: #FFFFFF;
-	font-weight: bold;
-	text-align: center;
-	background-image: url('https://obcdn4.obdesign.com.tw/images/SUMMERSALE/02-1180x80.png');
-	background-repeat: no-repeat;
-	background-position: center center;
-	margin-right: auto;
-	margin-left: auto;
-}
+			font-family: \5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4, Microsoft Jhenghei, Helvetica, Arial, sans-serif;
+			width: 1180px;
+			height: 80px;
+			font-size: 36px;
+			line-height: 80px;
+			color: #FFFFFF;
+			font-weight: bold;
+			text-align:center;
+			background-image: url('https://obcdn4.obdesign.com.tw/images/SUMMERSALE/02-1180x80.png');
+			background-repeat: no-repeat;
+	        background-position:center center;
+			margin-right: auto;
+	       margin-left: auto;
+		}
 
 .PRO_tit_5 {
-	font-family: \5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4, Microsoft Jhenghei, Helvetica, Arial, sans-serif;
-	width: 1180px;
-	height: 80px;
-	font-size: 36px;
-	line-height: 80px;
-	color: #FFFFFF;
-	font-weight: bold;
-	text-align: center;
-	background-image: url('https://obcdn4.obdesign.com.tw/images/SUMMERSALE/02-1180x80.png');
-	background-repeat: no-repeat;
-	background-position: center center;
-	margin-top: 40px;
-	margin-right: auto;
-	margin-left: auto;
-}
+			font-family: \5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4, Microsoft Jhenghei, Helvetica, Arial, sans-serif;
+			width: 1180px;
+			height: 80px;
+			font-size: 36px;
+			line-height: 80px;
+			color: #FFFFFF;
+			font-weight: bold;
+			text-align:center;
+			background-image: url('https://obcdn4.obdesign.com.tw/images/SUMMERSALE/02-1180x80.png');
+			background-repeat: no-repeat;
+	        background-position:center center;
+	        margin-top:40px;
+			margin-right: auto;
+	       margin-left: auto;
+		}
 
-.PRO_info {
-	font-family: \5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4, Microsoft Jhenghei, Helvetica, Arial, sans-serif;
-	width: 1100px;
-	height: 500px;
-	padding-left: 135px;
-	padding-top: 50px;
-}
-
-.PRO_info .pic {
-	border: #736f6f 1px solid;
-	width: 500px;
-	height: 500px;
-	float: left;
-}
-
-.PRO_info .pic img {
-	width: 500px;
-	height: 500px;
-}
-
+.PRO_info{
+			font-family: \5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4, Microsoft Jhenghei, Helvetica, Arial, sans-serif;
+			width:1100px;
+			height: 500px;
+			padding-left: 135px;
+			padding-top: 50px;
+		}
+		
+.PRO_info .pic{
+			border:#736f6f 1px solid; 
+			width: 500px;
+			height: 500px;
+			float: left;
+		}
+.PRO_info .pic img{
+			width: 500px;
+			height: 500px;
+		}
+		
 .PRO_info .detail {
-	font-family: \5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4, Microsoft Jhenghei, Helvetica, Arial, sans-serif;
-	width: 570px;
-	height: 500px;
-	padding-left: 20px;
-	float: left;
-}
-
-.PRO_info .detail_tit {
-	font-size: 30px;
-	line-height: 60px;
-	color: #f85ea8;
-	font-weight: bold;
-	width: 100%;
-	height: 60px;
-	background-image: url('https://obcdn4.obdesign.com.tw/images/WeekHot/Line_bt.png');
-	background-repeat: no-repeat;
-	background-position: left bottom;
-}
-
-.PRO_info .detail_txt {
-	width: 550px;
-	height: 320px;
-	padding: 10px;
-	font-size: 18px;
-	line-height: 30px;
-	color: #666666;
-}
-
-.PRO_info .pric {
-	font-family: \5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4, Microsoft Jhenghei, Helvetica, Arial, sans-serif;
-	width: 550px;
-	height: 80px;
-	padding: 10px;
-	text-align: right;
-}
-
-.PRO_info .pric ul {
-	margin: 0;
-	padding: 0;
-}
-
-.PRO_info .pric li {
-	float: left;
-	list-style: none;
-}
-
+			font-family: \5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4, Microsoft Jhenghei, Helvetica, Arial, sans-serif;
+			width: 570px;
+			height: 500px;
+			padding-left: 20px;
+			float: left;
+		}
+.PRO_info .detail_tit{
+			font-size: 30px;
+			line-height: 60px;
+			color: #f85ea8;
+			font-weight: bold;
+			width: 100%;
+			height: 60px;
+		    background-image: url('https://obcdn4.obdesign.com.tw/images/WeekHot/Line_bt.png');
+			background-repeat: no-repeat;
+	        background-position:left bottom;	
+		}
+		.PRO_info .detail_txt{
+			width: 550px;
+			height: 320px;
+			padding: 10px;
+			font-size: 18px;
+			line-height: 30px;
+			color: #666666;
+		}
+.PRO_info .pric{
+			font-family: \5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4, Microsoft Jhenghei, Helvetica, Arial, sans-serif;
+			width: 550px;
+			height: 80px;
+			padding: 10px;
+			text-align: right;
+		}
+		
+.PRO_info .pric ul{
+			margin: 0;
+			padding: 0;
+		}
+.PRO_info .pric li{
+			float:left;
+			list-style: none;
+		}
 .pric_gr {
-	font-size: 12px;
-	text-decoration: line-through;
-	color: #666666;
-	line-height: 45px;
-}
-
+			font-size: 12px;
+			text-decoration:line-through;
+			color: #666666;
+			line-height: 45px;
+		}
 .pric_red {
-	font-size: 12px;
-	color: #fa037a;
-	font-weight: bold;
-	line-height: 45px;
-}
-
-.red_Big {
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 40px;
-	color: #fa037a;
-	font-weight: bold;
-	line-height: 45px;
-}
-
-.Buy {
-	cursor: pointer;
-	display: block;
-	width: 143px;
-	height: 60px;
-	background-image: url(https://obcdn4.obdesign.com.tw/images/WeekHot/BUY.png);
-	background-repeat: no-repeat;
-	background-position: left bottom;
-}
-
+			font-size: 12px;
+			color: #fa037a;
+			font-weight: bold;
+			line-height: 45px;
+		}
+.red_Big{
+			font-family: Helvetica, Arial, sans-serif;
+			font-size: 40px;
+			color: #fa037a;
+			font-weight: bold;
+			line-height: 45px;
+		}
+.Buy{
+			cursor: pointer;
+			display: block;
+			width: 143px;
+			height: 60px;
+			background-image: url(https://obcdn4.obdesign.com.tw/images/WeekHot/BUY.png);
+			background-repeat: no-repeat;
+	        background-position:left bottom;
+		}
 .Buy:hover {
-	background-image: url(https://obcdn4.obdesign.com.tw/images/WeekHot/BUY_over.png);
-}
+			background-image: url(https://obcdn4.obdesign.com.tw/images/WeekHot/BUY_over.png);
+		}
 
-.footer_ {
-	position: relative;
-	margin-top: 20px;
-	height: 50px;
+	.footer_{
+	position:relative;
+	margin-top:20px;
+	height:50px; 
 	width: 100%;
-	background: #000000;
-}
+	background:#000000; 
+	}
 
-.footer_1180 {
+   .footer_1180{
 	margin: 0px auto;
 	width: 1180px;
-	height: 50px;
-	font-size: 0.6em;
-	line-height: 50px;
-	color: #E0D7D7;
+	height:50px;
+	font-size:0.6em;
+	line-height:50px;
+	color:#E0D7D7;
 	text-align: center;
-}
-
-
-/*浮水印*/
-
+	}
+		
+/*浮水印*/	
 .gotop_BOX {
-	width: 80px;
+    width:80px;
 	height: 100px;
 	position: fixed;
 	z-index: 999;
-	right: 40px;
+    right: 40px;
 	bottom: 50px;
-}
+  }
 
-.topBN_GO {
+
+.topBN_GO{
 	width: 1180px;
 	height: 192px;
 	margin-right: auto;
@@ -359,7 +340,7 @@ a {
 	display: block;
 }
 
-.topBN_GO ul {
+.topBN_GO ul{
 	margin: 0;
 	padding: 0;
 	width: 900px;
@@ -368,7 +349,7 @@ a {
 	margin-left: 218px;
 }
 
-.topBN_GO li {
+.topBN_GO li{
 	display: block;
 	float: left;
 	width: 220px;
@@ -376,68 +357,86 @@ a {
 	cursor: pointer;
 }
 
-@media screen and (max-device-width:768px) {
-	.topBN {}
-	.PRO_tit_1,
-	.PRO_tit_2,
-	.PRO_tit_3,
-	.PRO_tit_4 {
-		width: 100%;
-		font-size: 2em;
-	}
-	.PRO-X4 {
-		width: 100%;
-		height: 830px;
-	}
-	.PRO-X4 .Pic_one {
-		width: 45%;
-		height: 800px;
-		padding-left: 30px;
-		padding-right: 20px;
-	}
-	.PRO-X4 .Pic_one li img {
-		width: 100%;
-	}
-	.W1 {
-		width: 100%;
-		height: 80px;
-		font-size: 2em;
-		line-height: 80px;
-	}
-	.W2 {
-		height: 60px;
-		font-size: 1.6em;
-		line-height: 60px;
-	}
-	.W3_price {
-		height: 80px;
-		line-height: 80px;
-	}
-	.PRO-X2 {
-		width: 100%;
-		height: 560px;
-	}
-	.PRO-X2 img {
-		width: 1180px;
-		margin-left: 30px;
-		margin-right: 10px;
-		margin-bottom: 20px;
-	}
-	.pric_gr {
-		font-size: 1.6em;
-		line-height: 80px;
-	}
-	.pric_red {
-		font-size: 1.6em;
-		line-height: 80px;
-	}
-	.red_Big {
-		font-size: 4em;
-		line-height: 80px;
-	}
-	.event {
-		width: 900px;
-		margin: 0 auto;
-		padding: 0;
-	}
+
+
+
+@media screen and (max-device-width:768px){
+	
+	.topBN{
+			
+		}
+
+	.PRO_tit_1, .PRO_tit_2, .PRO_tit_3, .PRO_tit_4 {
+			width: 100%;
+			font-size: 2em;
+		}
+.PRO-X4{
+	width: 100%;
+	height: 830px;
+		}
+		
+ .PRO-X4 .Pic_one {
+	      width: 45%;
+		  height: 800px;
+		  padding-left: 30px;
+		  padding-right: 20px;
 }
+
+.PRO-X4 .Pic_one li img{
+	width: 100%;
+}
+
+	
+	.W1{
+   width: 100%;
+	height: 80px;
+	font-size: 2em;
+	line-height: 80px;
+	}
+
+
+.W2 {
+	height: 60px;
+	font-size: 1.6em;
+	line-height: 60px;
+}
+.W3_price{
+	height: 80px;
+	line-height: 80px;
+}
+		.PRO-X2{
+			width: 100%;
+			height: 560px;
+
+		}
+		
+.PRO-X2 img{
+	width:1180px;
+	margin-left: 30px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+	.pric_gr {
+			font-size: 1.6em;
+			line-height: 80px;
+		}
+		.pric_red {
+			font-size: 1.6em;
+			line-height: 80px;
+		}
+		.red_Big{
+			font-size: 4em;
+			line-height: 80px;
+		}
+	
+    .event{
+	width: 900px;
+	margin: 0 auto;
+	padding: 0;
+
+	}
+	}
+
+
+
