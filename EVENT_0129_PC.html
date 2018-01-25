@@ -151,6 +151,16 @@
                 <img class="wrap-img" src="images/sale-8.png" alt="">
             </a>
         </div>
+        <div id="sale_9">
+            <a class="sale-bar_1_img" href="#sale_9" target="_blank">
+                <img class="wrap-img" src="images/sale-9.png" alt="">
+            </a>
+        </div>
+        <div id="sale_10">
+            <a class="sale-bar_1_img" href="#sale_10" target="_blank">
+                <img class="wrap-img" src="images/sale-10.png" alt="">
+            </a>
+        </div>
 
 
 
@@ -212,6 +222,7 @@
                 alert(msg);
             }
         });
+
         function checkMessage() {
             var msg = $("#hiddenMessage").val();
             if (msg != null && msg != "") {
@@ -222,13 +233,17 @@
                 }, 300);
             }
         }
+
         function GetEventCoupon(id) {
             if (id != null && id != "") {
                 $.ajax({
                     type: "POST",
                     url: "/Activity/GetEventCoupon",
                     async: false,
-                    data: { id: id, returnUrl: $("#hiddenWebPath").val() + "/EVENT_0129_PC/EVENT_0129_PC.html" },
+                    data: {
+                        id: id,
+                        returnUrl: $("#hiddenWebPath").val() + "/EVENT_0129_PC/EVENT_0129_PC.html"
+                    },
                     success: function (data) {
                         if (data != null && data.RetrunCode != null && data.RetrunCode != "") {
                             if (data.RetrunCode == "00") { //領取成功
@@ -238,64 +253,56 @@
                                 if (data.RetrunUrl != null && data.RetrunUrl != "") {
                                     location.href = data.RetrunUrl;
                                 }
-                            }
-                            else if (data.RetrunCode == "01") { //未登入
+                            } else if (data.RetrunCode == "01") { //未登入
                                 if (data.Message != null && data.Message != "") {
                                     //alert(data.Message);
                                 }
                                 if (data.RetrunUrl != null && data.RetrunUrl != "") {
                                     location.href = data.RetrunUrl;
                                 }
-                            }
-                            else if (data.RetrunCode == "02") { //無資料
+                            } else if (data.RetrunCode == "02") { //無資料
                                 if (data.Message != null && data.Message != "") {
                                     alert(data.Message);
                                 }
                                 if (data.RetrunUrl != null && data.RetrunUrl != "") {
                                     location.href = data.RetrunUrl;
                                 }
-                            }
-                            else if (data.RetrunCode == "03") { //待開放
+                            } else if (data.RetrunCode == "03") { //待開放
                                 if (data.Message != null && data.Message != "") {
                                     alert(data.Message);
                                 }
                                 if (data.RetrunUrl != null && data.RetrunUrl != "") {
                                     location.href = data.RetrunUrl;
                                 }
-                            }
-                            else if (data.RetrunCode == "04") { //已過期
+                            } else if (data.RetrunCode == "04") { //已過期
                                 if (data.Message != null && data.Message != "") {
                                     alert(data.Message);
                                 }
                                 if (data.RetrunUrl != null && data.RetrunUrl != "") {
                                     location.href = data.RetrunUrl;
                                 }
-                            }
-                            else if (data.RetrunCode == "05") { //今日已搶完
+                            } else if (data.RetrunCode == "05") { //今日已搶完
                                 if (data.Message != null && data.Message != "") {
                                     alert(data.Message);
                                 }
                                 if (data.RetrunUrl != null && data.RetrunUrl != "") {
                                     location.href = data.RetrunUrl;
                                 }
-                            }
-                            else if (data.RetrunCode == "06") { //今日領取完畢
+                            } else if (data.RetrunCode == "06") { //今日領取完畢
                                 if (data.Message != null && data.Message != "") {
                                     alert(data.Message);
                                 }
                                 if (data.RetrunUrl != null && data.RetrunUrl != "") {
                                     location.href = data.RetrunUrl;
                                 }
-                            }
-                            else if (data.RetrunCode == "07") { //領取失敗
+                            } else if (data.RetrunCode == "07") { //領取失敗
                                 if (data.Message != null && data.Message != "") {
                                     alert(data.Message);
                                 }
                                 if (data.RetrunUrl != null && data.RetrunUrl != "") {
                                     location.href = data.RetrunUrl;
                                 }
-                            }
-                            else if (data.RetrunCode == "99") { //Exception
+                            } else if (data.RetrunCode == "99") { //Exception
                                 if (data.Message != null && data.Message != "") {
                                     alert(data.Message);
                                 }
@@ -305,8 +312,7 @@
                             }
                         }
                     },
-                    error: function () {
-                    }
+                    error: function () {}
                 });
             }
         }

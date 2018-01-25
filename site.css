@@ -120,91 +120,113 @@ body {
 /*-sale bar-*/
 
 .sale-bar_1 {
-    width: 22%;
-    height: 36%;
+    width: 17%;
+    height: 40%;
     display: block;
     position: absolute;
     background-color: rgba(255, 50, 22, 0.5);
     z-index: 1;
-    left: 0%;
-    top: 22%;
+    left: 3%;
+    top: 11%;
 }
 
 .sale-bar_2 {
-    width: 24%;
-    height: 36%;
+    width: 17%;
+    height: 40%;
     display: block;
     position: absolute;
     background-color: rgba(255, 50, 22, 0.5);
     z-index: 1;
-    left: 24%;
-    top: 22%;
+    left: 22%;
+    top: 11%;
 }
 
 .sale-bar_3 {
-    width: 24%;
-    height: 36%;
+    width: 17%;
+    height: 40%;
     display: block;
     position: absolute;
     background-color: rgba(255, 50, 22, 0.5);
     z-index: 1;
-    left: 50%;
-    top: 22%;
+    left: 40%;
+    top: 11%;
 }
 
 .sale-bar_4 {
-    width: 24%;
-    height: 36%;
+    width: 17%;
+    height: 40%;
     display: block;
     position: absolute;
     background-color: rgba(255, 50, 22, 0.5);
     z-index: 1;
-    left: 76%;
-    top: 22%;
+    left: 58%;
+    top: 11%;
 }
 
 .sale-bar_5 {
-    width: 22%;
-    height: 36%;
+    width: 17%;
+    height: 40%;
     display: block;
     position: absolute;
     background-color: rgba(255, 50, 22, 0.5);
     z-index: 1;
-    left: 0%;
-    top: 60%;
+    left: 77%;
+    top: 93px;
 }
 
 .sale-bar_6 {
-    width: 24%;
-    height: 36%;
+    width: 17%;
+    height: 40%;
     display: block;
     position: absolute;
     background-color: rgba(255, 50, 22, 0.5);
     z-index: 1;
-    left: 24%;
-    top: 60%;
+    left: 3%;
+    top: 54%;
 }
 
 .sale-bar_7 {
-    width: 24%;
-    height: 36%;
+    width: 17%;
+    height: 40%;
     display: block;
     position: absolute;
     background-color: rgba(255, 50, 22, 0.5);
     z-index: 1;
-    left: 50%;
-    top: 60%;
+    left: 22%;
+    top: 54%;
 }
 
 .sale-bar_8 {
-    width: 24%;
-    height: 36%;
+    width: 17%;
+    height: 40%;
     display: block;
     position: absolute;
     background-color: rgba(255, 50, 22, 0.5);
     z-index: 1;
-    left: 76%;
-    top: 60%;
+    left: 40%;
+    top: 54%;
+}
+
+.sale-bar_9 {
+    width: 17%;
+    height: 40%;
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 50, 22, 0.5);
+    z-index: 1;
+    left: 58%;
+    top: 54%;
+}
+
+.sale-bar_10 {
+    width: 17%;
+    height: 40%;
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 50, 22, 0.5);
+    z-index: 1;
+    left: 77%;
+    top: 54%;
 }
 
 .banner img {
